@@ -1,0 +1,14 @@
+﻿<Window x:Class="Praktica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktica"
+        mc:Ignorable="d"
+        Title="Практическая работа 1" Height="450" Width="800">
+    <Grid Margin="-1,-4,1,4">
+        <Button Content="Клиенты" HorizontalAlignment="Left" Margin="107,0,0,0" VerticalAlignment="Center" Width="205" Height="414" Click="Button_Click"/>
+        <Button Content="Агенты" HorizontalAlignment="Left" VerticalAlignment="Center" Height="414" Width="233" Click="Button_Click_1" Margin="473,0,0,0"/>
+
+    </Grid>
+</Window>
